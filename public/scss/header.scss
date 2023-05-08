@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 28px 0 80px;
+
+    &__logo {
+        &--link {
+            font-family: 'Cormorant';
+            font-size: 4rem;
+            position: relative;
+
+            span {
+                color: #DECBB6;
+                font-size: 4rem;
+            }
+
+            small {
+                margin-left: 9px;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+
+        &--button {
+            font-size: 1.8rem;
+            padding: 16px 44px;
+            border: 1px solid #C3B79F;
+            margin-right: 40px;
+
+            &:hover {
+                transition: all .2s ease-out;
+                background: #C3B79F;
+                color: #233831;
+            }
+        }
+
+        &--phone {
+            font-size: 2.4rem;
+            font-weight: 100;
+            margin-right: 51px;
+        }
+
+        &--bar {
+            height: 100%;
+            width: 54px;
+
+            &::before {
+                content: '';
+                width: 100%;
+                display: block;
+                height: 4.41px;
+                background: #fff;
+            }
+
+            &::after {
+                content: '';
+                width: 32px;
+                height: 4.41px;
+                display: block;
+                margin-top: 7px;
+                float: right;
+                background: #fff;
+            }
+        }
+    }
+}
