@@ -3,6 +3,7 @@
 #### [Демо](https://landing.poryvaii.ru/)
 
 Стек:
-   - PHP 
+   - PHP
+   - HTML, CSS (SCSS)
    - PHPMailer
    - JavaScript/jQuery, ajax
